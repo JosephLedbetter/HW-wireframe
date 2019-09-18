@@ -1,0 +1,119 @@
+* { 
+    background-color: #777777;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #777777; 
+    font-size: 18px;
+    color: #777777;
+}
+
+/* 'wrapper' is the entire content body containing all element boxes located in the html file*/
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+#header {
+    background: #ebebeb;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+#nav {
+    background: #ebebeb;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: center;
+    margin-bottom: 15px;
+    padding-top: 20px;
+
+}
+
+/* class containing the 'section' and 'aside' elements located under the 'nav' bar */
+
+.middle {
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+#section {
+    background: #ebebeb;
+    width: 55%;
+    height: 230px;
+    float: left;
+    color: #777777;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
+/* following 'h1..' and 'p' content elements located within the 'section' element*/
+
+#article {
+    clear:  both;
+    background: #777777;
+    color: #ebebeb;
+    width: 92%;
+    height: 65%;
+    overflow: auto;
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+/* smaller div containing css for 'h1..' and 'p' elements below*/
+
+#h1 {
+    background: #ebebeb;
+    color: #777777;
+    width: 95%;
+    height: 35px;    
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 10px
+}
+
+#p {
+    background: #ebebeb;
+    color: #777777;
+    width: 95%;
+    height: 35px;    
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+    padding-top: 10px
+}
+/* break to the next element placed right side of the 'section' containing the 'article'*/
+
+
+#aside {
+    background: #ebebeb;
+    width: 395px;
+    height: 219px;
+    float: right;       
+    margin-bottom: 15px;
+    margin-left: 0px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+#footer {
+    clear: both;
+    background: #ebebeb;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: center;
+    padding-top: 20px;
+    overflow: auto;
+}
